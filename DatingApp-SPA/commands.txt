@@ -1,0 +1,10 @@
+npm install bootstrap
+npm install bootstrap font-awesome 
+npm install @auth0/angular-jwt
+npm install alertifyjs
+npm install ngx-bootstrap --save
+npm install bootswatch@4.1.1
+
+--------------------------------
+git remote add origin https://github.com/AnujPratap0910/DatingApp.git
+git push -u origin master

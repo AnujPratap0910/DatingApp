@@ -24,7 +24,6 @@ namespace DatingApp.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetValues()
         {
-            throw new System.Exception("It is showing error");
             var values = await _context.Values.ToListAsync();
             return Ok(values);
 
